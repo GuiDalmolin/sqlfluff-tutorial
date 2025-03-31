@@ -25,7 +25,11 @@ exclude_rules = L001,L002
 ## Uso
 Você pode utilizar o linter tanto pelo terminal quanto por meio da extensão do VS Code.
 
-1. Terminal:
+
+1. Extensão do VS Code
+Baixar a extensão [SQLFUFF](https://marketplace.visualstudio.com/items?itemName=dorzey.vscode-sqlfluff). Os problemas dos códigos SQL já aparecerá na saída do terminal, e para arrumá-los automaticamente, pressione F1 e selecione a opção "SQLFLUFF Fix".
+
+2. Terminal:
   Usando o shell, é possível ver os problemas de um arquivo passando o nome no comando:
   ```shell
   sqlfluff lint meusql.sql
@@ -51,7 +55,3 @@ Você pode utilizar o linter tanto pelo terminal quanto por meio da extensão do
   ```shell
   sqlfluff fix meusql.sql
   ```
-
-2. Extensão do VS Code
-
-Baixar a extensão [SQLFUFF](https://marketplace.visualstudio.com/items?itemName=dorzey.vscode-sqlfluff). Os problemas dos códigos SQL já aparecerá na saída do terminal, e para arrumá-los automaticamente, pressione F1 e selecione a opção "SQLFLUFF Fix".
